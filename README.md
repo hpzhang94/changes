@@ -1,4 +1,4 @@
-# changes
+# CHANGES
 Source code for ACL 2023 CODI workshop paper: Contrastive Hierarchical Discourse Graph for Scientific Document Summarization
 
 
