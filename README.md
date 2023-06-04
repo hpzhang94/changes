@@ -23,15 +23,15 @@ Please download the dataset at:
 
 ```
 python train_e2e.py --model_save_path [model save path] 
-										--data_path [data save path]
- 										--data_name [pubmed or arxiv] 
- 										--hidden [hidden size] 
- 										--lr [lr] 
- 										--dropout [dropout rate] 
- 										--sepochs [epoch num] 
- 										--train_c [the flag to indcate if the model will update contrast model's 																parameter]
- 										--cweight_path [contrast model parameter path] 
-                    --sweight_path [summarization model parameter path]
+		--data_path [data save path]
+		--data_name [pubmed or arxiv] 
+		--hidden [hidden size] 
+		--lr [lr] 
+		--dropout [dropout rate] 
+		--sepochs [epoch num] 
+		--train_c [the flag to indcate if the model will update contrast model's parameter]
+		--cweight_path [contrast model parameter path] 
+                --sweight_path [summarization model parameter path]
 ```
 
 
@@ -40,10 +40,10 @@ python train_e2e.py --model_save_path [model save path]
 
 ```
 python test.py --data_path  [data save path]
-							 --data_name [pubmed or arxiv] 
-							 --hidden [hidden size] 
-							 --cweight_path [contrast model parameter path] 
-							 --sweight_path [summarization model parameter path]
+	 --data_name [pubmed or arxiv] 
+	 --hidden [hidden size] 
+	 --cweight_path [contrast model parameter path] 
+	 --sweight_path [summarization model parameter path]
 ```
 
 ## References
