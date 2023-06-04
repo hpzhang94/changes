@@ -11,14 +11,6 @@ Input the command for environment setup:
 pip install -r requirement.txt
 ```
 
-
-
-## Data
-
-Please download the dataset at:
-
-
-
 ## Train
 
 ```
